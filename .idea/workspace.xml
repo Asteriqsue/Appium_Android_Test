@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf38b08e-2d5a-40f1-a551-42465231ecad" name="Changes" comment="2 Автотеста в package vkvideo и alchemy соответственно &#10;Стек: Appium, Java 22, Selenide, Android Studio (Android 11 / api 30) Maven.&#10;&#10;1. Написать автотест на приложение VK Видео (com.vk.vkvideo) . Необходимо проверить, что видео (на ваш выбор) - воспроизводится. Для завершения автотеста, должны быть обработаны, как положительные - видео воспроизводится, так и негативные - видео не воспроизводится.&#10;https://play.google.com/store/apps/details?id=com.vk.vkvideo&#10;&#10;2.  Написать автотест на мобильное приложение: Алхимия:Головоломка &quot;com.ilyin.alchemy&quot;.&#10;https://play.google.com/store/apps/details?id=com.ilyin.alchemy &#10;Шаги прохождения теста: &#10;1. Нажать на кнопку &quot;Играть&quot; в главном меню.  &#10;2. Нажать на добавление подсказок.  &#10;3. Получить подсказку за просмотр рекламы.  &#10;4. Тест завершается после проверки на то что количество подсказок было увеличено и значение равно 4." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Asteriqsue"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Asteriqsue/Appium_Android_Test",
+    "accountId": "958ca4bf-235c-461e-b667-ec2dbe4cfe93"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3BoVArAk2f1Crp2KyEOpVqkzfE0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AlchemyTest.executor": "Run",
+    "JUnit.VkVideoTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf38b08e-2d5a-40f1-a551-42465231ecad" name="Changes" comment="" />
+      <created>1775158816805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775158816805</updated>
+      <workItem from="1775158816807" duration="349000" />
+      <workItem from="1775159212730" duration="692000" />
+      <workItem from="1775160073229" duration="34000" />
+      <workItem from="1775201448201" duration="793000" />
+      <workItem from="1775203956438" duration="25835000" />
+      <workItem from="1775236468455" duration="14641000" />
+    </task>
+    <task id="LOCAL-00001" summary="2 Автотеста в package vkvideo и alchemy соответственно &#10;Стек: Appium, Java 22, Selenide, Android Studio (Android 11 / api 30) Maven.&#10;&#10;1. Написать автотест на приложение VK Видео (com.vk.vkvideo) . Необходимо проверить, что видео (на ваш выбор) - воспроизводится. Для завершения автотеста, должны быть обработаны, как положительные - видео воспроизводится, так и негативные - видео не воспроизводится.&#10;https://play.google.com/store/apps/details?id=com.vk.vkvideo&#10;&#10;2.  Написать автотест на мобильное приложение: Алхимия:Головоломка &quot;com.ilyin.alchemy&quot;.&#10;https://play.google.com/store/apps/details?id=com.ilyin.alchemy &#10;Шаги прохождения теста: &#10;1. Нажать на кнопку &quot;Играть&quot; в главном меню.  &#10;2. Нажать на добавление подсказок.  &#10;3. Получить подсказку за просмотр рекламы.  &#10;4. Тест завершается после проверки на то что количество подсказок было увеличено и значение равно 4.">
+      <option name="closed" value="true" />
+      <created>1775257217245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775257217245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 Автотеста в package vkvideo и alchemy соответственно &#10;Стек: Appium, Java 22, Selenide, Android Studio (Android 11 / api 30) Maven.&#10;&#10;1. Написать автотест на приложение VK Видео (com.vk.vkvideo) . Необходимо проверить, что видео (на ваш выбор) - воспроизводится. Для завершения автотеста, должны быть обработаны, как положительные - видео воспроизводится, так и негативные - видео не воспроизводится.&#10;https://play.google.com/store/apps/details?id=com.vk.vkvideo&#10;&#10;2.  Написать автотест на мобильное приложение: Алхимия:Головоломка &quot;com.ilyin.alchemy&quot;.&#10;https://play.google.com/store/apps/details?id=com.ilyin.alchemy &#10;Шаги прохождения теста: &#10;1. Нажать на кнопку &quot;Играть&quot; в главном меню.  &#10;2. Нажать на добавление подсказок.  &#10;3. Получить подсказку за просмотр рекламы.  &#10;4. Тест завершается после проверки на то что количество подсказок было увеличено и значение равно 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Автотеста в package vkvideo и alchemy соответственно &#10;Стек: Appium, Java 22, Selenide, Android Studio (Android 11 / api 30) Maven.&#10;&#10;1. Написать автотест на приложение VK Видео (com.vk.vkvideo) . Необходимо проверить, что видео (на ваш выбор) - воспроизводится. Для завершения автотеста, должны быть обработаны, как положительные - видео воспроизводится, так и негативные - видео не воспроизводится.&#10;https://play.google.com/store/apps/details?id=com.vk.vkvideo&#10;&#10;2.  Написать автотест на мобильное приложение: Алхимия:Головоломка &quot;com.ilyin.alchemy&quot;.&#10;https://play.google.com/store/apps/details?id=com.ilyin.alchemy &#10;Шаги прохождения теста: &#10;1. Нажать на кнопку &quot;Играть&quot; в главном меню.  &#10;2. Нажать на добавление подсказок.  &#10;3. Получить подсказку за просмотр рекламы.  &#10;4. Тест завершается после проверки на то что количество подсказок было увеличено и значение равно 4." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
