@@ -60,7 +60,7 @@ public class MainPage {
 
         hintsButton.click();
 
-        // 2️⃣ Ждём, пока счётчик станет = 2
+        //Ждём, пока счётчик станет = 2
         long startTime = System.currentTimeMillis();
         long timeout = 30000; // 10 сек
 
@@ -115,7 +115,7 @@ public class MainPage {
                     }
                 }
             } catch (NoSuchElementException | StaleElementReferenceException ignored) {
-                // кнопка ещё не появилась, продолжаем ждать
+                //кнопка ещё не появилась, продолжаем ждать
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -130,12 +130,12 @@ public class MainPage {
             throw new RuntimeException("Кнопка Смотреть так и не появилась за 30 секунд");
         }
 
-        // ждём для стабильности перед пропуском рекламы
+        //ждём для стабильности перед пропуском рекламы
         try {
             Thread.sleep(5000);
         } catch (InterruptedException ignored) {
         }
-
+        
         skipAds();
     }
     //В рекламах нет локаторов за какие можно зацепиться, поймал тех кто выделен явно и собрал признаки для
@@ -161,7 +161,6 @@ public class MainPage {
                     break;
                 }
 
-
                 List<WebElement> candidates = new ArrayList<>();
 
                 // точные кнопки
@@ -186,7 +185,6 @@ public class MainPage {
                     } catch (Exception ignored) {
                     }
                 }
-
 
                 WebElement best = null;
                 int bestArea = 0;
